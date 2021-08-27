@@ -30,6 +30,8 @@ If they're feeling generous, users can gift other users some coins by using this
 .gift [USER] [AMOUNT] || .g [USER] [AMOUNT]
 ```
 
+**Example:** `.gift @Marquerere 1000`
+
 ### `beg`
 
 If they've lost all their points, users can beg once a day to get some more:
@@ -45,10 +47,9 @@ Users can start a prediction where them and other users can try to guess a certa
 ```bash
 .predict [EVENT] [OUTCOME_1] [OUTCOME_2] || .p [EVENT] [OUTCOME_1] [OUTCOME_2]
 ```
-> This command supports up to 5 outcome parameters.
+> This command supports phrases as parameters (use ' or ") and up to 5 outcome parameters.
 
-Use ' or " if you want to type a phrase as a parameter:
-`.predict 'What language was this bot written in?' JavaScript Python`
+**Example:** `.predict 'What language was this bot written in?' JavaScript Python`
 
 
 ---
