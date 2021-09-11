@@ -40,16 +40,16 @@ If they've lost all their points, users can beg once a day to get some more:
 .beg || .b
 ```
 
-### `predict`
+### `bet`
 
 Users can start a prediction where them and other users can try to guess a certain outcome (decided by the author of the prediction):
 
 ```bash
-.predict [EVENT] [OUTCOME_1] [OUTCOME_2] || .p [EVENT] [OUTCOME_1] [OUTCOME_2]
+.bet [EVENT] [OUTCOME_1] [OUTCOME_2] || .b [EVENT] [OUTCOME_1] [OUTCOME_2]
 ```
 > This command supports phrases as parameters (use ' or ") and up to 5 outcome parameters.
 
-**Example:** `.predict 'What language was this bot written in?' JavaScript Python`
+**Example:** `.bet 'What language was this bot written in?' JavaScript Python`
 
 
 ---
