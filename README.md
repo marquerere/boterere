@@ -37,7 +37,7 @@ If they're feeling generous, users can gift other users some coins by using this
 If they've lost all their points, users can beg once a day to get some more:
 
 ```bash
-.beg || .b
+.beg
 ```
 
 ### `bet`
